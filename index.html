@@ -1,31 +1,267 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Ardee Poblete</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="ardee,poblete,aqpoblete,html5,css3,less,sass,javascript,jquery,design,graphics,artist"/>
-    <meta name="description" content="A good guy front-end developer producing kick-ass designs using up-to-date tools." />
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-</head>
-<body>
-    <div class="container">
-        <h1>Ardee Poblete</h1>
-        <p>Front-End Developer</p>
-    </div>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ardee Poblete - Frontend Developer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="ardee,poblete,aqpoblete,html5,css3,less,sass,javascript,jquery,design,graphics,artist"/>
+        <meta name="description" content="A good guy front-end developer producing kick-ass designs using up-to-date tools." />
 
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <!-- icons/favicon -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="favicon.png">
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+        <link rel="stylesheet" href="src/fonts/ardee-icon/css/ardee-icon.css">
 
-        ga('create', 'UA-73799632-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="src/css/normalize.css">
+        <link rel="stylesheet" href="src/css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
 
-</body>
+        <!-- preloader -->
+        <div class="preloader">
+            <img class="preloader__image" src="src/img/preloader.gif" alt="">
+        </div>
+
+
+        <!-- lightbox -->
+        <div class="lightbox">
+            <a href="" class="lightbox__close-button"><i class="nc-icon nc-small-remove lg"></i></a>
+            <div class="lightbox__content"></div>
+        </div>
+
+
+        <div class="container">
+            <div class="profile">
+                <div class="profile__content">
+                    <span class="profile__avatar">
+                        <img src="src/img/avatar.jpg" alt="">
+                    </span>
+                    <div class="profile__information">
+                        <h1 class="profile__information__name">Ardee Poblete</h1>
+                        <h2 class="profile__information__position">Designer</h2>
+                        <p class="profile__information__bio">A good guy Front-end Developer at <a href="http://www.revlv.net/" target="_blank">Revlv</a> and Graphic Artist at <a href="https://www.facebook.com/projectgravityclothing" target="_blank">Project Gravity</a>. Passionate on creating kick-ass designs using top-notch tools and wide-range skills.</p>
+                        <ul class="profile__information__social-media">
+                            <li class="profile__information__social-media__item">
+                                <a href="https://www.facebook.com/pobleteardee" target="_blank" class="profile__information__social-media__link">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="profile__information__social-media__item">
+                                <a href="https://www.linkedin.com/in/ardeepoblete/" target="_blank" class="profile__information__social-media__link">
+                                    Linked-in
+                                </a>
+                            </li>
+                            <li class="profile__information__social-media__item">
+                                <a href="https://www.instagram.com/pobleteardee/" target="_blank" class="profile__information__social-media__link">
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="profile__information__social-media__item">
+                                <a href="https://twitter.com/ardeepoblete" target="_blank" class="profile__information__social-media__link">
+                                    Twitter
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="mailto:pobleteardee@yahoo.com" class="profile__information__button">Drop me a line!</a>
+                    </div>
+                    <span class="profile__copyright">© Ardee Poblete 2017</span>
+                </div>
+            </div>
+
+            <div class="portfolio">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Grab</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-grab.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-grab.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Rent-it Zambia</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-rent-it.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="https://www.revlv.net/demo/rent-it/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-rent-it.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">FHL Skin Food</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-fhl.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="http://fhlskinfood.com/devmode/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-fhl.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">WSTI</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-wsti.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="http://www.worldsolutiontech.com" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-wsti.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Nemiranda Arthouse</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-nemiranda.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="https://www.revlv.net/demo/nemiranda/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-nemiranda.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Kawil Tours</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-kawil-tours.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="https://www.revlv.net/demo/kawil-tours/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-kawil-tours.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Perfetti Van Melle</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-pvm.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="https://www.revlv.net/demo/pvm/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-pvm.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Taskribe</span>
+                            <span class="portfolio__item__service">Website & Software UI</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-taskribe.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="http://www.taskribe.com/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-taskribe.jpg" alt="">
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__item__content">
+                        <div class="portfolio__item__details">
+                            <span class="portfolio__item__client">Toto's Grill</span>
+                            <span class="portfolio__item__service">Website</span>
+                        </div>
+                        <div class="portfolio__item__utility">
+                            <a href="src/img/full-totos-grill.jpg" class="portfolio__item__utility__button show__lightbox">
+                                <i class="nc-icon nc-launch-47"></i>
+                            </a>
+                            <a href="https://www.revlv.net/demo/totos-grill/" target="_blank" class="portfolio__item__utility__button">
+                                <i class="nc-icon nc-link-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="src/img/client-totos-grill.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="mailto:pobleteardee@yahoo.com" class="footer__button">Let's discuss your thing, Contact me!</a>
+            </div>
+        </div>
+
+
+        <!-- scripts -->
+        <script src="src/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="src/js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="src/js/plugins.js"></script>
+        <script src="src/js/main.js"></script>
+
+        <!-- analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-102256133-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
 </html>

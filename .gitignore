@@ -1,0 +1,11 @@
+/dist
+/node_modules
+/bower_components
+/doc
+/src/components
+/src/less
+/bower.json
+/crossdomain.xml
+/gulpfile.js
+/package.json
+/README.md
