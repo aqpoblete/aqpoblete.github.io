@@ -590,7 +590,6 @@ lightbox.less
 }
 .lightbox__content img {
   width: 100%;
-  border-radius: 3px;
 }
 .lightbox__close-button {
   position: fixed;
@@ -628,12 +627,13 @@ preloader.less
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 102;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  height: 100%;
   background: #fff;
 }
 /*
