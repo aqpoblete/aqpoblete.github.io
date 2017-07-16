@@ -12,7 +12,7 @@ License - nucleoapp.com/license/
   font-style: normal;
 }
 /*------------------------
-	base class definition
+    base class definition
 -------------------------*/
 .nc-icon {
   display: inline-block;
@@ -159,7 +159,7 @@ License - nucleoapp.com/license/
   transform: scale(1, -1);
 }
 /*------------------------
-	font icons
+    font icons
 -------------------------*/
 
 .nc-launch-47::before {
@@ -167,12 +167,23 @@ License - nucleoapp.com/license/
 }
 
 .nc-link-2::before {
+    content: "\ea06";
+}
+
+.nc-link-72::before {
     content: "\ea02";
 }
 
-.nc-small-remove::before {
+.nc-logo-facebook::before {
+    content: "\ea03";
+}
+
+.nc-logo-linkedin::before {
     content: "\ea04";
 }
 
+.nc-simple-remove::before {
+    content: "\ea05";
+}
 
 /* all icon font classes list here */
