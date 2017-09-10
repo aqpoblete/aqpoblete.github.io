@@ -386,6 +386,9 @@ portfolio.less
   .portfolio .portfolio__item__service {
     font-size: 12px;
   }
+  .portfolio .portfolio__item__year {
+    font-size: 12px;
+  }
   .portfolio .portfolio__item__utility__button {
     width: 44px;
     height: 44px;
@@ -452,6 +455,16 @@ portfolio.less
   user-select: none;
 }
 .portfolio__item__service {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  line-height: 1;
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.6);
+  user-select: none;
+}
+.portfolio__item__year {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
